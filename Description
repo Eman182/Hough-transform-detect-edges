@@ -1,0 +1,10 @@
+Here input is an image 
+output is image with lines detected using hough transform.
+
+Describing Hough transform algorithm
+  getting key points in image.
+  every key point votes for lines it is on in the accumulator array.
+  then apply thresholding for ignoring low voted lines.
+  apply non maximum suppression for only chosing the max from neighbours to reduce noise.
+  Draw the remaining lines on image.
+  output image with drawin lines.
